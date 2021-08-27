@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Haozhe Tian Photos</title>
+	<link rel="stylesheet" href="css/HzPCSS.css">
+	<script src = "js/HzPJS.js"></script>
+</head>
+<body>
+
+<header>
+    <img class = "headshot" src="imgs/headimg.jpg" alt="Photo of Haozhe Tian"/>
+    <h1>Haozhe Tian</h1>
+    <p>From China<img src="imgs/flags_china.png" alt="China flag"></p>
+    <p>Master Student at Imperial College London</p>
+    <div class="dropdown">
+        <button class="dropbtn">Content</button>
+        <nav class="dropdown-content">
+            <a href = "work.html">Resume</a><a href = "index.html">Homepage</a><a href = "photos.html" class = "active">Photo Booth</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<div class = "previewImages">
+    <img class="preview" alt = "Taiyuan City View" src = "imgs/TYC.jpg"onmouseover = "upDate(this)" onmouseout = "unDo()">
+    <img class="preview" alt = "Italian Food" src = "imgs/ItaFood.JPG"onmouseover = "upDate(this)" onmouseout = "unDo()">
+    <img class="preview" alt = "Sushi" src = "imgs/Sushi.jpg"onmouseover = "upDate(this)" onmouseout = "unDo()">
+    <img class="preview" alt = "Wang Garden" src = "imgs/WangGarden.jpeg"onmouseover = "upDate(this)" onmouseout = "unDo()">
+</div>
+<div id = "imageDisplay">
+    Hover over an image above to display here.
+</div>
+</main>
+
+</body>
+</html>
