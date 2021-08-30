@@ -1,0 +1,296 @@
+
+header{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(#227697,#216783);
+    border-color: #99f3ff;
+    border-radius: 40px 40px 0 0;
+    border-style: solid;
+    border-width: 10px 0;
+    padding: 5px;
+}
+header img.headshot{
+    margin: 15px 0 0 0;
+    width: 4%;
+    min-width: 100px;
+    border-radius: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+header h1{
+
+    font-size: 170%;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+header p{
+    display: inline-block;
+    font-size: 70%;
+    width: 60%;
+    padding: 0 5%;
+    margin: 3px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header p img{
+    width: 20px;
+    border-radius: 2px;
+    margin: 0 15px;
+}
+.dropbtn {
+    display: inline-block;
+    background-color: #216783;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+    text-transform: uppercase;
+    color: white;
+    margin: 5px 0;
+    width: 95%;
+    padding: 16px;
+    border-style: solid;
+    border-width: 2px 3px 3px 3px;
+    border-top-color: #7fcceb;
+    border-radius: 0 0 15px 15px;
+    cursor: pointer;
+}
+.dropdown .dropdown-content{
+    display: none;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: inline-block;
+    margin: 0 0;
+    width: 90%;
+    font-size: 120%;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #16556e;
+    border-width: 2px 0 0 0;
+}
+main .leftContactInfo{
+    display: none;
+}
+#container{
+    min-height: 100vh;
+    margin-bottom: -470px;
+}
+#container:after{
+    content:"";
+    display: block;
+    height: 470px;
+}
+
+.mobileContact{
+    padding: 5px;
+    height: 470px;
+    background-color: #dadada;
+    font-family: 'Times New Roman', Times, serif;
+}
+main .mobileContact h2{
+    margin: 0;
+}
+main .rightIntro{
+
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 2em;
+    font-size: 100%;
+}
+main .sideNav{
+    display: none;
+}
+.rightCV{
+    font-family: 'Times New Roman', Times, serif;
+}
+.rightCV p{
+    text-align: justify;
+    text-indent: 2em;
+}
+.rightCV h2{
+    margin-top: 0;
+    border-style: solid;
+    border-width: 0 0 2px 0;
+    border-color: #000;
+}
+.rightIntro img{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+#imageDisplay{
+    display: none;
+}
+.previewImages{
+    text-align: center;
+    width: 80%;
+    background-color: #b3edff;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+    border-color: #216783;
+    margin: 10px auto;
+    padding: 5px 3%;
+}
+.previewImages img{
+    display: inline-block;
+    width: 80%;
+    margin: auto 20px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 5%;
+}
+iframe{
+  display: block;
+  width: 95%;
+  margin: 10px auto;
+  border-radius: 5%;
+}
+.pcPhotoBooth{
+  display: none;
+}
+.mobilePhotoBooth{
+  padding: 50px 0;
+  background-color: #000;
+  border-radius: 5%;
+}
+.carousel-caption p{
+  display: none;
+    color: #fff;
+    border-radius: 5%;
+  background-color: #00000080;
+}
+
+.mobilePhotoBooth:hover p{
+  display: block;
+}
+
+@media only screen and (min-width: 820px) {
+    header p{
+        font-size: 100%;
+        margin: 10px;
+    }
+    .dropdown .dropdown-content{
+        display: block;
+    }
+    .dropbtn {
+        display: none;
+    }
+    .dropdown-content a{
+        margin: 5px 0;
+        display: inline-block;
+        width: 27%;
+        text-align: center;
+        padding: 15px;
+        font-size: 120%;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-style: solid;
+        border-width: 3px 0 0 0;
+    }
+    .dropdown-content a.active{
+        border-width: 3px;
+        border-top-color: #7fcceb;
+        border-radius: 0 0 10px 10px;
+        font-size: 170%;
+    }
+    .dropdown-content a:hover{
+        border-width: 3px;
+        border-top-color: #7fcceb;
+        border-radius: 0 0 10px 10px;
+        font-size: 170%;
+        text-decoration: none;
+        color: #fff;
+    }
+    main .leftContactInfo{
+        display: block;
+        background-color: #dadada;
+        float: left;
+        width: 30%;
+        min-width: 300px;
+        position: relative;
+        margin-right: 30px;
+        height: 100vh;
+        font-size: 100%;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 8px;
+    }
+    .mobileContact{
+        display:none;
+    }
+    .rightIntro img{
+        width: 40%;
+    }
+    main .sideNav{
+        display: block;
+        float: left;
+        width: 30%;
+        text-align: center;
+        height: 300vh;
+        background-color: #216783;
+        max-width: 450px;
+        margin-right: 10px;
+    }
+    main .sideNav>a,div>a{
+        display: inline-block;
+        width: 90%;
+        margin: 20px 0;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color: #ffffff;
+        font-size: x-large;
+        border-style: solid;
+        border-width: 0 0 3px 0;
+        border-color: #99f3ff;
+
+    }
+    .dropdown-sidenav-content a{
+        display: inline-block;
+        border-style: solid;
+        border-width: 0 0 2px 0;
+        border-color: #ffffff;
+        width: 70%;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .dropdown-sidenav .dropdown-sidenav-content{
+        display: none;
+    }
+    .dropdown-sidenav:hover .dropdown-sidenav-content{
+        display: inline-block;
+    }
+    .previewImages img{
+        width: 17%;
+        opacity: 0.5;
+    }
+    .previewImages img:hover{
+        opacity: 1;
+        border-color: #fff;
+        border-width: 8px;
+    }
+    .pcPhotoBooth{
+      display: block;
+    }
+    .mobilePhotoBooth{
+      display:none;
+    }
+    #imageDisplay{
+        display: block;
+        width: 800px;
+        height: 450px;
+        margin: 0 auto;
+        background-color: #b3edff;
+        border-style: solid;
+        border-color: #000;
+        text-align: center;
+    }
+}
